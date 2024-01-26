@@ -1,12 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
 
-class Application extends React.Component {
-  render (){
+
+function Application () {
+     const variable = "გამარჯობა სამყარო"
     return (
-       <h1>გამარჯობა</h1>
+      <h1>
+        {
+        variable
+       }
+
+      </h1> 
     );
-  }
+  
 }
  
 export default Application;
